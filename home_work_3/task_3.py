@@ -1,4 +1,5 @@
 # Задача №3 домашнего задания 3. Рюкзак.
+
 import itertools
 
 MAX_WEIGHT = 10000
