@@ -11,7 +11,7 @@ class CvsConverter:
         self.file = file
 
     def create_csv(data, file):
-        with open(file, 'w', encoding='utf-8') as f:
+        with open(file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=data[0].keys())
             writer.writeheader()
 
